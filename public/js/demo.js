@@ -34,7 +34,8 @@ $(document).ready(function() {
   var widgetId = 'vizcontainer', // Must match the ID in index.jade
     widgetWidth = 700, widgetHeight = 700, // Default width and height
     personImageUrl = 'images/app.png', // Can be blank
-    language = 'en'; // language selection
+    // language = 'en'; // language selection
+    language = 'es'; // language selection    
 
   // Jquery variables
   var $content = $('.content'),

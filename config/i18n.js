@@ -21,14 +21,16 @@ var i18n = require('i18next');
 var i18nOptions = {
   debug : false,
 
-  preload : ['en'],
+  // preload : ['en'],
+  preload : ['es'],
 
   resSetPath : 'i18n/__lng__.json',
   resGetPath : 'i18n/__lng__.json',
 
   sendMissingTo : 'fallback',
   saveMissing   : true,
-  fallbackLng   : 'en',
+  // fallbackLng   : 'en',
+  fallbackLng   : 'es',
 
   detectLngFromHeaders : true,
   useCookie : false,

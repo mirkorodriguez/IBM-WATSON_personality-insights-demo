@@ -83,7 +83,8 @@ var i18nTranslatorFactory = (function () {
 var i18nProvider = (function(locale) {
 
   var self = {
-    locale : 'en'
+    // locale : 'en'
+    locale : 'es'
   };
 
   /**
@@ -173,5 +174,3 @@ var i18nProvider = (function(locale) {
   return self;
 
 })($('html').attr('lang'));
-
-
