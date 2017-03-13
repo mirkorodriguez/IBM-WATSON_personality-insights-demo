@@ -7,4 +7,4 @@ applications:
   host: personality-insights-demo-es
   disk_quota: 1024M
   services:
-  - personality-Insights-demo-es-service
+  - personality-insights-demo-es-service
