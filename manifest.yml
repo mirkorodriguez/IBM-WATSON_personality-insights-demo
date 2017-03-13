@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 256M
+  instances: 1
+  domain: mybluemix.net
+  name: personality-insights-demo-es
+  host: personality-insights-demo-es
+  disk_quota: 1024M
+  services:
+  - personality-Insights-demo-es-service
